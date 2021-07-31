@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Stocks</title>
+</head>
+
+<body>
+
+    <h1>Check Profit/Loss on your Stock</h1>
+
+
+    <form id="stockForm">
+        <label for="initial">
+            <h3>Purhased for </h3>
+            <input required type="number" min="0.1" step=".01" id="initial">
+        </label>
+
+        <br>
+        <br>
+
+        <label for="quant">
+            <h3>Quantity</h3>
+             <input required type="number" min="1" id="quant">
+        </label>
+
+        <br>
+        <br>
+
+        <label for="curr">
+            <h3>Current price</h3>
+            <input required type="number" min="0.1" step=".01" id="curr">
+        </label>
+
+        <br>
+        <br>
+
+        <button class="btn btn-primary" id="submit">Check</button>
+    </form>
+
+
+    <h3 id="result">
+        
+    </h3>
+
+
+    <ul class="footer-list">
+        <li class="list-item"><a target="_blank" href="mailto:chakravarthisaran7@gmail.com" class="footer-links">
+            <i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://github.com/chakravarthi0">
+            <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://www.linkedin.com/in/saran-chakravarthi-b44438175">
+            <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://twitter.com/saranchakravar3">
+            <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="list-item"><a target="_blank" href="https://portfolio-saran.netlify.app/">
+            <i class="fas fa-briefcase"></i>
+            </a>
+        </li>
+        
+    </ul>
+    <script src="main.js"></script>
+</body>
+
+</html>
